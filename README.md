@@ -1,7 +1,4 @@
-# Unsplash Photo Picker for Android
 
-[![License](https://img.shields.io/github/license/unsplash/unsplash-photopicker-android.svg?style=flat-square)](https://github.com/unsplash/unsplash-photopicker-android)
-![JitPack](https://img.shields.io/jitpack/v/github/unsplash/unsplash-photopicker-android)
 
 UnsplashPhotoPicker is an Android UI component that allows you to quickly search the Unsplash library for free high-quality photos with just a few lines of code.
 
@@ -9,17 +6,6 @@ iOS photo picker [here](https://github.com/unsplash/unsplash-photopicker-ios).
 
 ![Unsplash Photo Picker for Android preview](https://github.com/unsplash/unsplash-photopicker-android/blob/dev/unsplash-photo-picker-android.png "Unsplash Photo Picker for Android")
 
-## Table of Contents
-
-- [Description](#description)
-- [Requirements](#requirements)
-- [Installation](#installation)
-  - [Gradle](#gradle)
-- [Usage](#usage)
-  - [Configuration](#configuration)
-  - [Presenting](#presenting)
-  - [Using the results](#using-the-results)
-- [License](#license)
 
 ## Description
 
@@ -107,15 +93,5 @@ override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) 
 
 See [UnsplashPhoto.kt](https://github.com/unsplash/unsplash-photopicker-android/blob/master/photopicker/src/main/java/com/unsplash/pickerandroid/photopicker/data/UnsplashPhoto.kt) for more details.
 
-## License
 
-MIT License
-
-Copyright (c) 2019 Unsplash Inc.
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
